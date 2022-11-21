@@ -1,0 +1,38 @@
+body{
+    background-color: mediumturquoise;
+    
+}
+.container-card{  display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    background-color: darkslateblue;
+    align-items: center;
+    justify-items: center;
+    border-style: groove;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    
+    
+    
+  }
+.card{
+    border: groove; 
+    padding-bottom: 20px;
+    border-color: aqua;
+    color:rgb(75, 3, 48) ;
+    
+}
+
+h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(75, 3, 48);
+    
+    
+}
